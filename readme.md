@@ -52,3 +52,17 @@ https://www.linode.com/docs/guides/use-logrotate-to-manage-log-files/
 ### Print all cron jobs
 
 `crontab -l`
+
+## Backup through ssh
+
+### check where is your disc in `/dev`
+
+`lsblk -p`
+
+### copy whole disc content over ssh (gzipped)
+
+`ssh -t pi@192.168.1.32 'sudo dd bs=4M if=/dev/mmcblk0 status=progress | gzip' > pios.img.gz`
+
+additional info on backup restoring
+
+https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
