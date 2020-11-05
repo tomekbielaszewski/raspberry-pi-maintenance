@@ -61,8 +61,8 @@ https://www.linode.com/docs/guides/use-logrotate-to-manage-log-files/
 
 ### copy whole disc content over ssh (gzipped)
 
-`ssh -t pi@192.168.1.32 'sudo dd bs=4M if=/dev/mmcblk0 status=progress | gzip' > pios.img.gz`
+`ssh pi@192.168.1.38 'sudo dd bs=4M if=/dev/mmcblk0 status=progress | gzip' | dd of=pi_os_backup.gz`
 
-additional info on backup restoring
+### additional info on backup restoring
 
 https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
