@@ -66,3 +66,8 @@ https://www.linode.com/docs/guides/use-logrotate-to-manage-log-files/
 ### additional info on backup restoring
 
 https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+
+### save ssh key
+
+`ssh-copy-id -i ~/.ssh/klucz grizwold@192.168.1.38`
+https://www.ssh.com/ssh/copy-id
