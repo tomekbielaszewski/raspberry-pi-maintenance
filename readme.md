@@ -9,7 +9,7 @@
 
 ### Packages for removal
 
-`sudo apt-get purge wolfram-engine`
+`sudo apt-get remove --purge wolfram-engine`
 
 `sudo apt-get remove --purge libreoffice`
 
