@@ -76,3 +76,10 @@ https://www.ssh.com/ssh/copy-id
 
 For headless setup, SSH can be enabled by placing a file named ssh, without any extension, onto the boot partition of the SD Card. When the Raspberry Pi boots, it looks for the ssh file. If it is found, SSH is enabled and the file is deleted. The content of the file does not matter; it could contain text, or nothing at all.
 
+### prepare WIFI for headless
+
+https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-on-headless-pi
+
+The Raspberry Pi Foundation's Raspberry Pi Imager now has an advanced options menu which is accessed by the keyboard shortcut Ctrl+Shift+X.
+You can set hostname, allow SSH (including changing user password), configure wifi and set locale. Note that this tool also appears to have telemetry built in, which can be turned off from the GUI.
+
