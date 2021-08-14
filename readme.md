@@ -71,3 +71,8 @@ https://www.raspberrypi.org/documentation/installation/installing-images/linux.m
 
 `ssh-copy-id -i ~/.ssh/klucz grizwold@192.168.1.38`
 https://www.ssh.com/ssh/copy-id
+
+### ssh access for headless
+
+For headless setup, SSH can be enabled by placing a file named ssh, without any extension, onto the boot partition of the SD Card. When the Raspberry Pi boots, it looks for the ssh file. If it is found, SSH is enabled and the file is deleted. The content of the file does not matter; it could contain text, or nothing at all.
+
