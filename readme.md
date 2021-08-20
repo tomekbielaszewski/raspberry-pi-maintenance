@@ -83,3 +83,6 @@ https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-o
 The Raspberry Pi Foundation's Raspberry Pi Imager now has an advanced options menu which is accessed by the keyboard shortcut Ctrl+Shift+X.
 You can set hostname, allow SSH (including changing user password), configure wifi and set locale. Note that this tool also appears to have telemetry built in, which can be turned off from the GUI.
 
+### Controlling RPi from Android 
+
+https://play.google.com/store/apps/details?id=it.Ettore.raspcontroller&hl=en&gl=US
