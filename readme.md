@@ -86,3 +86,7 @@ You can set hostname, allow SSH (including changing user password), configure wi
 ### Controlling RPi from Android 
 
 https://play.google.com/store/apps/details?id=it.Ettore.raspcontroller&hl=en&gl=US
+
+### Working with GPIO
+
+https://www.ics.com/blog/gpio-programming-using-sysfs-interface
