@@ -53,6 +53,12 @@ https://www.linode.com/docs/guides/use-logrotate-to-manage-log-files/
 
 `crontab -l`
 
+### Print cron logs from syslog
+
+`grep CRON /var/log/syslog`
+
+`tail -f /var/log/syslog`
+
 ## Backup through ssh
 
 ### check where is your disc in `/dev`
