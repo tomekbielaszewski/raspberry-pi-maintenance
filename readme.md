@@ -117,7 +117,7 @@ echo "$(tput setaf 2)
   '. \ ' ' / .'   `uname -srmo`$(tput setaf 1)
    .~ .~~~..~.
   : .~.'~'.~. :   Uptime.............: ${UPTIME}
- ~ (   ) (   ) ~  Memory.............: `cat /proc/meminfo | grep MemFree | awk {'print $2'}`kB (Free) / `cat /proc/meminfo | grep MemTotal | awk {'print $2'}`kB (Total)
+ ~ (   ) (   ) ~  Memory.............: `cat /proc/meminfo | grep MemFree | awk {'print int($2/1024)'}`MB (Free) / `cat /proc/meminfo | grep MemTotal | awk {'print int($2/1024)'}`MB (Total)
 ( : '~'.~.'~' : ) Free Disk Space....: `df -Pkh | grep -E '^/dev/root' | awk '{ print $4 }' | awk -F '.' '{ print $1 }'` on /dev/root
  ~ .~ (   ) ~. ~  Load Averages......: ${one}, ${five}, ${fifteen} (1, 5, 15 min)
   (  : '~' :  )   Running Processes..: `ps ax | wc -l | tr -d " "`
