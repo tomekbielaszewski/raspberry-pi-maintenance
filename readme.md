@@ -121,7 +121,7 @@ echo "$(tput setaf 2)
 ( : '~'.~.'~' : ) Free Disk Space....: `df -Pkh | grep -E '^/dev/root' | awk '{ print $4 }' | awk -F '.' '{ print $1 }'` on /dev/root
  ~ .~ (   ) ~. ~  Load Averages......: ${one}, ${five}, ${fifteen} (1, 5, 15 min)
   (  : '~' :  )   Running Processes..: `ps ax | wc -l | tr -d " "`
-   '~ .~~~. ~'
+   '~ .~~~. ~'    Temperature........: `/usr/bin/vcgencmd measure_temp`
        '~'
 $(tput sgr0)"
 ```
