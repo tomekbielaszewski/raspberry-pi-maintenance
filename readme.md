@@ -125,3 +125,13 @@ echo "$(tput setaf 2)
        '~'
 $(tput sgr0)"
 ```
+
+### Temperature
+
+command:
+
+`/usr/bin/vcgencmd measure_temp`
+
+outputs:
+
+`temp=43.3'C`
