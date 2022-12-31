@@ -1,5 +1,9 @@
 # Raspberry Pi scripts for maintenance
 
+### Observability
+
+![linux-perf-observability-tools.jpg](linux-perf-observability-tools.jpg)
+
 ### Prints disc space
 `df -h`
 
